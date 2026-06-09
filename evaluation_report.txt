@@ -1,0 +1,54 @@
+Target URL: https://breadfinancial.com
+
+=== CHROMIUM ===
+Timestamp: 2026-06-09 13:03:57.844362
+[Console] Error
+[Network Error]: 403 - https://www.breadfinancial.com/
+[Console] Failed to load resource: the server responded with a status of 403 (Forbidden)
+Load Time: 12.53 seconds
+
+=== WEBKIT ===
+Timestamp: 2026-06-09 13:04:10.377168
+[Console] Error
+[Network Error]: 403 - https://www.breadfinancial.com/
+[Console] Failed to load resource: the server responded with a status of 403 (Forbidden)
+Load Time: 4.53 seconds
+
+=== FIREFOX ===
+Timestamp: 2026-06-09 13:04:14.910518
+[Console] [JavaScript Warning: "WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER." {file: "https://www.breadfinancial.com/wixt-tweel-them-absoluties-two-feare-Macd-Blade-/A9ow0GwSlLNe8h7cuAE066BhTEX3NwFaHck8UZ9gjTw?s=2Ijir5Gz" line: 1}]
+[Network Error]: 403 - https://www.breadfinancial.com/
+[Console] [JavaScript Warning: "This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”." {file: "https://www.breadfinancial.com/" line: 0}]
+[Console] [JavaScript Warning: "unreachable code after return statement" {file: "https://www.breadfinancial.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3" line: 1}]
+[Console] [JavaScript Warning: "unreachable code after return statement" {file: "https://www.breadfinancial.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3" line: 1}]
+[Console] [JavaScript Warning: "unreachable code after return statement" {file: "https://www.breadfinancial.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3" line: 1}]
+Load Time: 4.72 seconds
+
+=== SUMMARY ===
+Cross-browser evaluation completed successfully.
+Fastest Browser: webkit
+Slowest Browser: chromium
+
+=== PERFORMANCE SUMMARY ===
+chromium: 12.53 seconds
+webkit: 4.53 seconds
+firefox: 4.72 seconds
+
+=== HEALTH SCORE ===
+chromium: 100/100
+webkit: 100/100
+firefox: 100/100
+
+=== ISSUE BREAKDOWN ===
+Security: 5
+Privacy: 0
+Compatibility: 1
+Frontend: 4
+General: 12
+
+=== EXECUTIVE SUMMARY ===
+WebKit demonstrated the best performance with a load time of 4.53 seconds.
+Chromium demonstrated the slowest performance with a load time of 12.53 seconds.
+Security-related findings were detected, including HTTP 403 responses.
+Frontend warnings were detected and should be reviewed.
+Compatibility findings indicate usage of deprecated browser features.
