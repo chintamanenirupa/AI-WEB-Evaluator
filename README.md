@@ -124,7 +124,19 @@ python3 main.py
 
 ## Sample Output
 
-```text
+## Browser Screenshots
+
+### Chromium
+
+![Chromium](screenshots/chromium.png)
+
+### WebKit
+
+![WebKit](screenshots/webkit.png)
+
+### Firefox
+
+![Firefox](screenshots/firefox.png)
 === SUMMARY ===
 
 Cross-browser evaluation completed successfully.
